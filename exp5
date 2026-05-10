@@ -1,0 +1,124 @@
+This practical combines:
+Genetic Algorithm (GA)
+Neural Network (NN)
+
+It is called a: Hybrid GA-NN Model
+
+What is Spray Drying?
+Spray drying is a process used to convert liquid into powder.
+
+Example:
+Coconut milk → Coconut milk powder
+The liquid is sprayed into hot air.
+Water evaporates and powder remains.
+
+Why is Optimization Needed?
+During spray drying:
+1. Temperature
+2. Air flow
+3. Feed rate
+4. Pressure
+must be properly adjusted.
+
+
+Wrong parameters can cause:
+1. Poor powder quality
+2. Low efficiency
+3. Waste of material
+So optimization is needed.
+
+
+The practical uses:
+
+Neural Network for prediction
+Genetic Algorithm for optimization
+
+Together they improve system performance.
+
+
+
+
+1. Neural Network:
+Learns patterns from data
+Predicts output
+
+Example:
+If temperature changes,
+
+NN predicts:
+Moisture content
+Powder quality
+Yield
+
+
+
+2. Genetic Algorithm finds:
+Best parameters
+
+It searches for:
+
+Best temperature
+Best drying conditions
+Best NN parameters
+
+
+
+HYBRID SYSTEM: Neural Network is good at learning.
+               Genetic Algorithm is good at optimization.
+
+
+
+
+
+
+1. Genetic Algorithm
+GA is inspired by:
+Natural Evolution
+
+Concepts used:
+Selection
+Crossover
+Mutation
+
+
+2. Population
+A set of possible solutions.
+
+
+3. Fitness Function
+Measures how good a solution is.
+Higher fitness = Better solution.
+
+
+4. Selection
+Best solutions are selected.
+
+5. Crossover
+Combines two solutions.
+
+6. Mutation
+Small random changes added.
+Helps avoid local optimum.
+
+7. Neural Network
+AI model inspired by human brain.
+
+Contains:
+Input layer
+Hidden layer
+Output layer
+
+
+
+
+
+Why GA Optimizes Neural Network?
+Neural networks sometimes:
+Get stuck in local minima
+Train slowly
+
+GA helps:
+Find better weights
+Improve accuracy
+Reduce error
+               
