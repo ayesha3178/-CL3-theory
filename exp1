@@ -1,0 +1,82 @@
+This practical is based on RMI (Remote Method Invocation) in Java.
+
+RMI allows a program running on one computer (client) to call methods of another program running on another computer (server) as if the method is local.
+
+In this practical:
+
+The client sends two strings to the server.
+The server performs concatenation (joins the strings).
+The server sends the result back to the client.
+
+Example:
+
+Client sends: "Hello" and "World"
+Server returns: "HelloWorld"
+
+
+
+
+
+Main Concept of RMI
+
+RMI is used for communication between distributed systems.
+
+It follows the Client-Server Architecture.
+
+Components:
+Client
+Requests service
+Sends two strings
+Server
+Provides service
+Concatenates strings
+Remote Interface
+Contains methods that client can call remotely
+RMI Registry
+Stores remote objects
+Helps client locate server object
+
+
+
+
+
+
+1. Distributed Application
+
+An application where components run on different systems but communicate through network.
+
+2. RMI
+
+Remote Method Invocation.
+
+Used in Java to call methods from remote machines.
+
+
+3. Remote Interface
+
+Defines methods that can be accessed remotely by client.
+
+
+4. Stub
+
+Acts like a proxy for remote object on client side.
+
+Client communicates with stub instead of actual server object.
+
+
+
+5. Skeleton (Old Concept)
+
+Receives request from stub and passes it to server object.
+
+(In modern Java versions, skeleton is internally handled.)
+
+
+
+6. RMI Registry
+
+A naming service where remote objects are registered.
+
+Default port:
+
+1099
