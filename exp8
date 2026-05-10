@@ -1,0 +1,112 @@
+Artificial Immune System (AIS)
+used for: Pattern Recognition and Structure Damage Classification
+It is inspired by: Human Immune System
+
+Main Idea: using AI techniques inspired by the immune system.
+
+The system detects whether a structure is:
+Healthy
+OR
+Damaged
+
+
+
+
+What is Structure Damage Classification?
+It means identifying:
+Cracks
+Faults
+Vibrations
+Structural defects
+
+in structures like:
+
+Buildings
+Bridges
+Machines
+Aircraft
+
+
+Real-Life Example
+Suppose:
+A bridge develops cracks.
+Sensors collect data like:
+1.Vibration
+2.Stress
+3.Frequency
+The AI system analyzes patterns and classifies:
+Healthy or Damaged
+
+
+
+
+Why Artificial Immune System?
+Human immune system:
+Detects harmful organisms
+Recognizes patterns
+Responds to infections
+
+Similarly,
+AIS:
+Detects abnormal structural patterns
+Identifies damage
+
+
+
+STEPS:
+Step 1: Collect Structural Data
+Sensors collect:
+Vibration signals
+Stress data
+Frequency data
+
+
+Step 2: Feature Extraction
+Important characteristics are extracted.
+Example:
+Amplitude
+Frequency
+Signal patterns
+
+Step 3: Artificial Immune Processing
+AIS compares patterns with known normal patterns.
+
+
+Step 4: Classification
+System classifies structure as:
+Healthy
+OR
+Damaged
+
+Step 5: Output Generated
+Damage category/result displayed.
+
+
+
+
+
+
+
+Important Concepts
+1. Artificial Immune System (AIS)
+Computational system inspired by biological immune system.
+Used in:
+Optimization
+Detection
+Classification
+2. Antigen: Represents unknown or abnormal data.
+In this practical: Damage pattern
+3. Antibody: Represents detector/classifier.
+4. Affinity: Measures similarity between patterns.
+Higher affinity: Better match
+5. Pattern Recognition: Identifying patterns from data automatically.
+6. Classification: Assigning category to data. Example: Healthy / Damaged
+
+
+
+
+
+
+
+
+
