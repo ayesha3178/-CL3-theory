@@ -1,0 +1,84 @@
+Clonal Selection Algorithm (CSA)
+It is an optimization algorithm inspired by: Human Immune System
+Specifically: How the body fights diseases using antibodies.
+
+Goal of the Algorithm To find: Best or optimal solution
+
+
+Main Idea
+Our immune system:
+
+1.Detects harmful antigens (diseases)
+2.Produces antibodies
+3.Best antibodies are cloned
+4.Mutations improve antibodies further
+
+Similarly, in computation:
+
+1.Candidate solutions are treated as antibodies.
+2.Best solutions are selected and cloned.
+3.Mutation improves solutions.
+4.Finally, optimal solution is obtained.
+
+
+
+1.Antigen- Problem
+2.Antibody-	Possible solution
+3.Affinity-	Quality/Fitness
+4.Cloning	Copying best solutions
+5. Mutation	Small changes for improvement
+
+
+
+
+
+
+STEPS:
+Step 1: Initialize Population
+Generate random antibodies (solutions).
+Example:
+S1, S2, S3...
+
+Step 2: Evaluate Fitness
+Check quality of each solution.
+Better solution = Higher affinity.
+
+
+Step 3: Select Best Antibodies
+Choose highest fitness solutions.
+
+
+Step 4: Clone Them
+Best antibodies are copied multiple times.
+Better antibodies get: More clones
+
+
+Step 5: Mutation
+Clones are slightly modified.
+Purpose: Explore better solutions.
+
+
+Step 6: Re-evaluate Fitness
+Check if mutated solutions improved.
+
+
+Step 7: Replace Weak Solutions
+Poor antibodies are removed.
+New better antibodies are added.
+
+
+Step 8: Repeat Process
+Algorithm continues until: Best solution found OR Maximum iterations reached
+
+
+
+
+Why Mutation is Important
+Without mutation: Algorithm may get stuck.
+
+Mutation helps:
+1. Explore new search areas
+2. Avoid local optimum
+
+
+
