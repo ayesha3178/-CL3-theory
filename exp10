@@ -1,0 +1,61 @@
+This practical implements:
+Ant Colony Optimization (ACO)
+to solve:
+Traveling Salesman Problem (TSP)
+
+Traveling Salesman Problem (TSP)
+
+A salesman:
+1.Must visit all cities exactly once
+2.Must return to starting city
+3.Needs shortest possible route
+
+
+Why is TSP Difficult?
+As cities increase:
+Possible routes increase rapidly.
+This becomes: Optimization Problem
+
+What is Ant Colony Optimization?
+ACO is an optimization algorithm inspired by: Real Ant Behavior
+Real ants:
+1.Search food paths
+2.Leave pheromone trails
+3.Shorter paths get stronger pheromones
+4.Other ants follow best path
+Eventually: Shortest path is discovered
+
+
+
+Main Idea in ACO
+
+Artificial ants:
+Explore routes between cities
+Deposit pheromones
+Prefer shorter/better routes
+Gradually discover optimal path
+
+
+STEPS:
+Step 1: Initialize Cities: Distance matrix between cities created.
+Step 2: Place Ants: Artificial ants start from cities.
+Step 3: Ants Build Routes
+Each ant:
+Visits all cities once
+Chooses next city based on:
+Pheromone
+Distance
+Step 4: Calculate Route Distance: Total distance of each route calculated.
+Step 5: Update Pheromones:
+              1.Shorter routes: More pheromone deposited
+              2.Longer routes: Less pheromone
+Step 6: Evaporation: Old pheromones reduce gradually.
+Step 7: Repeat Iterations: Over multiple iterations: Best route emerges.
+
+
+
+
+
+
+
+
