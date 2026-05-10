@@ -1,0 +1,125 @@
+This practical is based on Fuzzy Set Theory.
+
+In normal sets:
+
+An element either belongs or does not belong.
+Membership is only:
+0 or 1
+
+But in fuzzy sets:
+
+Elements can belong partially.
+Membership values range between:
+0 to 1
+
+Example:
+
+Tall people = {Ayesha/0.7, Rahul/0.5}
+
+Meaning:
+
+Ayesha is tall with degree 0.7
+Rahul is tall with degree 0.5
+
+
+
+
+
+
+
+1. Union of Fuzzy Sets
+Meaning
+Union means combining two fuzzy sets.
+
+In fuzzy sets:
+We take the maximum membership value.
+Formula: μA∪B​(x)=max(μA​(x),μB​(x))
+Example
+If:
+A = 0.4
+B = 0.7
+Union:
+max(0.4,0.7)=0.7
+
+
+
+
+2. Intersection of Fuzzy Sets
+Meaning
+Common elements between sets.
+
+In fuzzy sets:
+We take the minimum membership value.
+Formula: μA∩B​(x)=min(μA​(x),μB​(x))
+
+Example
+A = 0.4
+B = 0.7
+Intersection:
+min(0.4,0.7)=0.4
+
+
+
+
+3. Complement of Fuzzy Set
+Meaning
+Opposite of membership.
+
+Formula: μAc​(x)=1−μA​(x)
+
+Example
+A = 0.7
+Complement:
+1 - 0.7 = 0.3
+
+
+
+4. Difference of Fuzzy Sets
+Meaning
+Elements present in A but not in B.
+
+Usually calculated as:
+Minimum of A and complement of B.
+Formula: μA−B​(x)=min(μA​(x),1−μB​(x))
+
+Example
+A = 0.8
+B = 0.5
+Difference:
+min(0.8, 0.5)=0.5
+
+
+
+
+5. Cartesian Product of Fuzzy Sets
+Meaning
+Combines every element of one set with every element of another set.
+Used to create fuzzy relations.
+
+Rule: Membership value is: Minimum of both memberships.
+Formula: μA×B​(x,y)=min(μA​(x),μB​(y))
+
+Example
+If:
+A = {x/0.7}
+B = {y/0.5}
+Cartesian Product:
+(x,y) = min(0.7,0.5)=0.5
+
+
+
+
+
+6. Max-Min Composition
+Meaning
+Used to combine two fuzzy relations.
+This is very important in fuzzy systems.
+
+Working
+1.Take minimum values row-wise
+2.Then take maximum among them
+
+Formula: μR∘S​(x,z)=ymax​[min(μR​(x,y),μS​(y,z))]
+“Min first, then Max”
+Find minimum values
+Then choose maximum from those minimums
