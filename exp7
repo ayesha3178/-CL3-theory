@@ -1,0 +1,51 @@
+Neural Style Transfer (NST)
+It is a Deep Learning technique used to:
+1.Combine the content of one image
+with
+2.The artistic style of another image
+
+
+
+
+Main Idea
+Suppose:
+You have a normal photograph.
+You also have a painting by an artist.
+
+Neural Style Transfer creates:
+A new image
+that: Keeps the original photo content
+Applies painting style on it
+
+
+
+How Deep Learning Helps
+A neural network extracts:
+1.Content features
+2.Style features
+Then generates a new artistic image.
+
+
+
+
+1. Deep Learning: A subset of AI using neural networks.
+2. Neural Network: Computational model inspired by human brain.
+Used for:
+Image recognition
+Feature extraction
+3. Feature Extraction: Finding important patterns in image.
+Example:
+Edges
+Shapes
+Colors
+Textures
+4. Content Loss: Measures:
+How much generated image differs from original content.
+5. Style Loss: Measures:
+How much generated image differs from artistic style.
+6. Optimization
+The output image is repeatedly improved until:
+Content preserved
+Style transferred properly
+
+
