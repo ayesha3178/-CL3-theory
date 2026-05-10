@@ -1,0 +1,49 @@
+Load balancing means:
+Distributing workload or client requests among multiple servers evenly.
+Preventing one server from becoming overloaded.
+
+
+Suppose:
+Many clients send requests.
+There are multiple servers available.
+Instead of sending all requests to one server:
+Requests are distributed among different servers.
+
+This improves:
+Performance
+Speed
+Reliability
+
+
+Real-Life Example
+
+Think of:
+Supermarket Billing Counters
+If all customers go to one counter:
+Huge queue forms.
+So customers are distributed across:
+Counter 1
+Counter 2
+Counter 3
+This is load balancing.
+
+
+
+Common Load Balancing Algorithms:
+1. Round Robin Algorithm: Requests are distributed one-by-one sequentially.
+2. Least Connections Algorithm: Request goes to server with minimum active connections.
+3. Random Algorithm: Server selected randomly.
+4. Weighted Round Robin: More powerful servers get more requests.
+
+
+
+
+STEPS:
+1.Clients generate requests.
+2. Load balancer receives all requests.
+3.Algorithm decides target server.
+Example:
+Round Robin
+Least Connection
+4.Selected server processes request.
+5.Response returned to client.
