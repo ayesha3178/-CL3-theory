@@ -1,0 +1,35 @@
+DEAP (Distributed Evolutionary Algorithms in Python) is a flexible evolutionary
+computation framework designed for rapid prototyping and testing of evolutionary
+algorithms. Unlike "black box" frameworks, DEAP prioritizes making algorithms explicit
+and data structures transparent, allowing users to customize every aspect of the evolutionary process
+
+
+DEAP is actually a:
+Python library/framework used for implementing:
+1.Genetic Algorithms
+2.Evolutionary Algorithms
+3.Optimization techniques
+
+Main Idea: DEAP helps solve optimization problems using: Evolution-inspired algorithms
+
+It works similar to:
+1.Natural selection
+2.Survival of the fittest
+
+
+Main Evolutionary Concepts:
+
+Individual:	Candidate solution
+Population:	Group of solutions
+Fitness:	Solution quality
+Selection:	Choosing best solutions
+Crossover:	Combining solutions
+Mutation:	Random modification
+
+
+Goal of the Practical:
+1.Generate solutions
+2.Evaluate fitness
+3.Improve solutions iteratively
+4.Find optimal/best solution
+using DEAP framework.
